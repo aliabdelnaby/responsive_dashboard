@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_dashboard/core/utils/app_images.dart';
+import 'package:responsive_dashboard/widgets/user_info_list_tile.dart';
 
 class CustomDrawer extends StatelessWidget {
   const CustomDrawer({super.key});
@@ -8,9 +10,14 @@ class CustomDrawer extends StatelessWidget {
     return Container(
       color: Colors.white,
       child: const Column(
-        children: [],
+        children: [
+          UserInfoListTile(
+            image: Assets.imagesAvatar3,
+            title: "Ali Abdelnaby",
+            subTitle: "demo@gmail.com",
+          ),
+        ],
       ),
     );
   }
 }
-
