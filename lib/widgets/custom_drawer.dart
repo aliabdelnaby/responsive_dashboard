@@ -16,6 +16,8 @@ class CustomDrawer extends StatelessWidget {
             title: "Ali Abdelnaby",
             subTitle: "demo@gmail.com",
           ),
+          SizedBox(height: 8),
+
         ],
       ),
     );
